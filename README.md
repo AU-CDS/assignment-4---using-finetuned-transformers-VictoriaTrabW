@@ -20,4 +20,4 @@ You should write code and documentation which addresses the following tasks:
 ## Tips
 - I recommend using ```j-hartmann/emotion-english-distilroberta-base``` like we used in class.
 - Spend some time thinking about how best to present you results, and how to make your visualisations appealing and readable.
-- **MAKE SURE TO UPDATE YOUR README APPROPRIATELY!**
+
