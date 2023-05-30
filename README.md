@@ -37,3 +37,7 @@ The dataset is obtained from Kaggle.com at https://www.kaggle.com/datasets/jilla
 More info on the huggingface pipeline can be found at https://huggingface.co/docs/transformers/main_classes/pipelines#natural-language-processing
 
 ## Reflections and methods
+In this assignment, the following methods were employed. First, the dataset was loaded and divided into two categories: real and fake headlines. Next, a pre-trained emotion classification model was utilized to classify the emotions associated with each headline. Finally, the emotion distributions were visualized using bar plots, allowing for a comparison between the emotions evoked by real and fake headlines.
+
+Based on the output, the FAKE and REAL headlines evoked similar emotions, with neutral, fear and anger being the most prevalent. However, there were some differences. The REAL headlines had a slightly greater occurrence of fear, but a lower occurrence of headlines categorized as anger. When observing the FAKE headlines visualisation, these headlines are more often categorized as containing the emotion disgust. The FAKE headlines also have more instances of joy and surprise.
+NOTE: the visualisation shows the counts in descending order, so be aware that it is not the colour that represents the emotion but look at the name on the x-axis instead.
