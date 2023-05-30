@@ -24,7 +24,7 @@ You should write code and documentation which addresses the following tasks:
 ## Repository structure
 -	In folder: contains the dataset fake_or_real_news.csv.
 -	out folder: Contains the outputs generated during the execution of the scripts. This includes .csv files with classified emotions and some images.
--	src folder: Contains the main script to solve the assignment. This includes the pipeline for the classifier and the visualisation of the results.
+-	src folder: Contains the main script to run the assignment. This includes the pipeline for the classifier and the visualisation of the results.
 -	Setup and reproducibility files:
 o	Requirements.txt file: Lists the required programs and packages to run the code. 
 o	Can be installed with: pip install -r requirements.txt
