@@ -2,3 +2,4 @@ transformers
 matplotlib 
 seaborn 
 pandas
+torch
