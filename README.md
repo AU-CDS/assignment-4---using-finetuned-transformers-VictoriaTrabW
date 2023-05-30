@@ -21,3 +21,19 @@ You should write code and documentation which addresses the following tasks:
 - I recommend using ```j-hartmann/emotion-english-distilroberta-base``` like we used in class.
 - Spend some time thinking about how best to present you results, and how to make your visualisations appealing and readable.
 
+## Repository structure
+-	In folder: contains the dataset fake_or_real_news.csv.
+-	out folder: Contains the outputs generated during the execution of the scripts. This includes .csv files with classified emotions and some images.
+-	src folder: Contains the main script to solve the assignment. This includes the pipeline for the classifier and the visualisation of the results.
+-	Setup and reproducibility files:
+o	Requirements.txt file: Lists the required programs and packages to run the code. 
+o	Can be installed with: pip install -r requirements.txt
+-	README.md file: Contains the assignment details, dependencies, additional notes, and reflections on the output. 
+
+## Dependencies and data
+The project has been run through the Coder Python app (1.78.2) via UCloud. To run the code effectively, the programs in the requirements.txt are neccesary. 
+
+The dataset is obtained from Kaggle.com at https://www.kaggle.com/datasets/jillanisofttech/fake-or-real-news
+More info on the huggingface pipeline can be found at https://huggingface.co/docs/transformers/main_classes/pipelines#natural-language-processing
+
+## Reflections and methods
